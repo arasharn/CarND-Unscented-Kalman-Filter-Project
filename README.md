@@ -59,6 +59,14 @@ OUTPUT: values provided by the c++ program to the simulator
 3. Compile: `cmake .. && make`
 4. Run it: `./UnscentedKF`
 
+## Accuracy of the Model
+
+`UnscentedKF` was run on the terminal the following are the results
+
+![results](Screenshot 2019-01-26 00.23.11.png)
+
+As the results indicates, the $RSME_{[X, Y, V_X, V_Y]}<[0.09, 0.10, 0.40, 0.30]$
+
 ## Editor Settings
 
 We've purposefully kept editor configuration files out of this repo in order to
